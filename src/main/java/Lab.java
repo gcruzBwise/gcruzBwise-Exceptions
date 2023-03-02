@@ -20,7 +20,9 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
-
+    public void mustThrow() throws Exception {
+    String test = null;
+    test.toString();
+// created a test method to demonstrate throwing an exception. The toString() method returns a textual representation of an object, but in this case the variable is null. Calling a method on a null reference or trying to access a field of a null reference will trigger a NullPointerException.
     }
 }
